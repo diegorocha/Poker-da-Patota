@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content="Relação das mãos de poker."/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Poker da Patota - Mãos Poker</title>
+  </head>
+  <body>
+    <h2>Poker da Patota - Mãos Poker</h2>
+    <div class="voltar"><a href="index.htm">Voltar</a></div>
+    <p>Lista de mãos do Poker Texas Hold'em.<br/>
+       Origem: <a href="http://www.pokerstars.com/br/poker/games/rules/hand-rankings/" target="_blank">http://www.pokerstars.com/br/poker/games/rules/hand-rankings/</a>
+    </p>
+    <ul>
+      <li><a href="#StraightFlush">Straight Flush</a></li>
+      <li><a href="#FourOfAKind">Quadra (Four of a Kind)</a></li>
+      <li><a href="#FullHouse">Full House</a></li>
+      <li><a href="#Flush">Flush</a></li>
+      <li><a href="#Straight">Straight</a></li>
+      <li><a href="#ThreeOfAKind">Trinca (Three of a Kind)</a></li>
+      <li><a href="#TwoPairs">Dois Pares (Two Pairs)</a></li>
+      <li><a href="#OnePair">Um par (One Pair)</a></li>
+      <li><a href="#HighCard">Carta mais alta (High Card)</a></li>
+    </utl>
+    <div class="img"><img src="PokerHands.jpg" alt="Mãos do Poker"/></div>
+    <h4><a name="StraightFlush">Straight Flush</a></h4>
+      <p>Cinco cartas em seqüência, do mesmo naipe.<br/>
+        Na eventualidade de um empate: O valor mais alto no topo da seqüência ganha.<br/>
+        O melhor Straight Flush possível é conhecido como <b>Royal Straight Flush</b>, que consiste em ás, rei, dama, valete e dez de um único naipe.
+      </p>
+    <h4><a name="FourOfAKind">Quadra (Four of a Kind)</a></h4>
+    <p> Quatro cartas de valor idêntico e uma carta lateral.<br/>
+        Na eventualidade de um empate: A quadra mais alta ganha. Nos jogos com cartas comunitárias, em que os jogadores têm a mesma quadra, a quinta carta lateral mais alta (a "kicker") ganha.</p>
+    <h4><a name="FullHouse">Full House</a></h4>
+    <p>Três cartas de valor idêntico (trinca) e duas cartas de valor diferente e compatível.<br/>Na eventualidade de um empate: A trinca mais alta ganha o pote. Nos jogos de cartas de comunidade em que os jogadores têm a mesma trinca, o valor mais alto de um par ganha.</p>
+    <h4><a name="Flush">Flush</a></h4>
+    <p>Cinco cartas do mesmo naipe.<br/>Na eventualidade de um empate: Ganha o jogador com a carta com maior valor. Se necessário, a segunda, terceira, quarta e quinta cartas mais altas podem ser utilizadas para resolver o empate.</p>
+    <h4><a name="Straight">Straight</a></h4>
+    <p>Cinco cartas em seqüência.<br/>Na eventualidade de um empate: A carta com valor mais alto no topo da seqüência ganha.<br/>Nota: O Ás pode ser utilizado na parte superior ou inferior da seqüência e é a única carta que pode agir desta forma.</p>
+    <h4><a name="ThreeOfAKind">Trinca (Three of a Kind)</a></h4>
+    <p>Três cartas de valor idêntico e duas cartas laterais não relacionadas.<br/>Na eventualidade de um empate: A trinca mais alta ganha. Nos jogos com cartas comunitárias, em que os jogadores têm a mesma trinca, a carta lateral mais alta ou, se necessário, a segunda carta mais alta ganha.</p>
+    <h4><a name="TwoPairs">Dois Pares (Two Pairs)</a></h4>
+    <p>Duas cartas de valor idêntico, outras duas cartas de outro valor idêntico entre si (mas diferente do valor das duas primeiras cartas) e uma carta lateral.<br/>Na eventualidade de um empate: O par mais alto ganha. Se os jogadores tiverem um par de idêntico valor, o segundo par mais alto ganha. Se ambos os jogadores tiverem pares idênticos, a carta lateral mais alta ganha.</p>
+    <h4><a name="OnePair">Um par (One Pair)</a></h4>
+    <p>Duas cartas de valor idêntico e três cartas laterais não relacionadas.<br/>Na eventualidade de um empate: O par mais alto ganha. Se os jogadores possuírem o mesmo par, a carta lateral mais alta ganha e, se necessário, a segunda e terceira cartas mais altas podem ser utilizadas para resolver o empate</p>
+    <h4><a name="HighCard">Carta mais alta (High Card)</a></h4>
+    <p>Qualquer mão que não se qualifique numa categoria listada acima.<br/>Na eventualidade de um empate: A carta mais alta ganha e, se necessário, a segunda, terceira e quarta mais altas e a carta mais baixa podem ser utilizadas para resolver o empate.</p>
+  </body>
+</html>
