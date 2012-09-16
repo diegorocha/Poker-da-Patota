@@ -3,8 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta property="og:title" content="Site com conteúdo de apoio para o Poker da Patota."/>
-    <meta property="og:image" content="http://poker.diegorocha.com.br/poker.jpg"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta property="og:image" content="http://poker.diegorocha.com.br{{ STATIC_URL }}img/poker.jpg"/>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/estilo.css">
     <title>Poker da Patota</title>
   </head>
   <body>
@@ -14,6 +14,6 @@
       <li><a href="maospoker">Tabela de mãos</a></li>
       <li><a href="regrasgerais">Regras gerais</a></li>
     </utl>
-    <div class="img"><img src="poker.jpg" alt="Poker"/></div>
+    <div class="img"><img src="{{ STATIC_URL }}img/poker.jpg" alt="Poker"/></div>
   </body>
 </html>

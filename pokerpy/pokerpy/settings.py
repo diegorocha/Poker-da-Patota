@@ -4,6 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
+    ('Diego Rocha', 'diego@diegorocha.com.br'),
     # ('Your Name', 'your_email@example.com'),
 )
 
@@ -11,12 +12,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/Users/Lucas/Sites/Poker-da-Patota/pokerpy/pokerpy.db',                      # Or path to database file if using sqlite3.
-        'USER': '',                      # Not used with sqlite3.
-        'PASSWORD': '',                  # Not used with sqlite3.
-        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+        'ENGINE':   'django.db.backends.mysql',
+        'NAME':     'poker_patota',
+        'USER':     'poker_patota',
+        'PASSWORD': 'mpePaJMvmEyyUzXv',
+        'HOST':     'darell.diegorocha.com.br',
+        'PORT':     '',
     }
 }
 
@@ -27,11 +28,11 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'America/Sao_Paulo'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 SITE_ID = 1
 
@@ -59,7 +60,12 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
+
+#Diego Rocha's workstation static files dir:
 STATIC_ROOT = ''
+
+#Server's static file dir:
+#STATIC_ROOT = '/home/diego/Ubuntu One/Fontes/Poker-da-Patota/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -129,6 +135,14 @@ INSTALLED_APPS = (
 # the site admins on every HTTP 500 error when DEBUG=False.
 # See http://docs.djangoproject.com/en/dev/topics/logging for
 # more details on how to customize your logging configuration.
+
+
+
+"""TODO: Solve this:
+Commented this section because it was raising errors on 
+my django version 1.3.1 installation. 
+
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -151,4 +165,4 @@ LOGGING = {
             'propagate': True,
         },
     }
-}
+}"""

@@ -29,7 +29,8 @@ def displayDirectoryError(deployDirectory):
   print 'Path', deployDirectory, 'does not exists.'
   
 if __name__ == '__main__':
-  if len(argv) == 1:
+  """ 
+   if len(argv) == 1:
     displayNoParamError()
   else:
     param = argv[1]
@@ -41,3 +42,5 @@ if __name__ == '__main__':
         deploy(deployDirectory)
       else:
         displayDirectoryError(deployDirectory)
+  """
+  print '[deprecated] This stipt need to be upgraded'
