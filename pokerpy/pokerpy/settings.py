@@ -60,12 +60,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-
-#Diego Rocha's workstation static files dir:
 STATIC_ROOT = ''
-
-#Server's static file dir:
-#STATIC_ROOT = '/home/diego/Ubuntu One/Fontes/Poker-da-Patota/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
