@@ -3,7 +3,7 @@ Poker da Patota
 
 Site with informations about the Patota's Poker.
 
-Deploying
----------
+About project
+------------------------
 
-    python PokerPatotaDeploy.py deployDir
+It's a django web site, compatibility with version 1.3.1
